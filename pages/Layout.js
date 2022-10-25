@@ -1,3 +1,4 @@
+import Head from "next/head"
 import Link from "next/link"
 import Navbar from "../components/Navbar"
 import styles from '../styles/Home.module.css'
@@ -5,6 +6,9 @@ import styles from '../styles/Home.module.css'
 function Layout({children}) {
   return (
     <div className={styles.main}>
+      <Head>
+        <title>News Home Page</title>
+      </Head>
         <Navbar/>
         {children}
         <div class="attribution">
