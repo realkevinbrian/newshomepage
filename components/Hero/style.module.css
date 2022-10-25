@@ -1,0 +1,187 @@
+
+    .heroWrapper{
+        display: grid;
+        grid-template-columns: auto 1fr;  
+        gap: 4rem;  
+        margin-bottom: 3rem;
+    }
+    
+    .heroWrapper__banner{
+        min-height: 400px;
+        height: 100%;
+        max-height: 450px;
+        width: 100%;
+        display: flex;
+        position: relative;
+        z-index: -1;
+    }
+    
+    .heroWrapper__text{
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        padding: 2rem 0;
+        gap: 2rem;
+    }
+    
+    
+    .heroWrapper__text h2{
+        font-size: 4rem;
+        margin:0;
+        padding-right: 3rem;
+    }
+    
+    .heroWrapper__text a{
+        border: 1px solid red;
+        padding: 10px 2rem;
+        background-color: hsl(5, 85%, 63%);
+        color: white;
+    }
+    
+    .heroWrapper__text p{
+        padding-bottom: 1.5rem;
+        color:hsl(236, 13%, 42%);
+    }
+
+
+
+    @media only screen and (min-width : 320px) {
+    
+        .heroWrapper{
+            display: grid;
+            grid-template-columns: 1fr;  
+            gap: 4rem;  
+            margin-bottom: 3rem;
+        }
+        
+        .heroWrapper__banner{
+            min-height: 400px;
+            height: 100%;
+            max-height: 450px;
+            width: 100%;
+            display: flex;
+        }
+        
+        .heroWrapper__text{
+            display: grid;
+            grid-template-columns: 1fr;
+            padding: 2rem 0;
+            gap: 1rem;
+        }
+        
+        
+        .heroWrapper__text h2{
+            font-size: 4rem;
+            margin:0;
+            padding-right: 3rem;
+        }
+        
+        .heroWrapper__text a{
+            border: 1px solid red;
+            padding: 10px 2rem;
+            background-color: hsl(5, 85%, 63%);
+            color: white;
+        }
+        
+        .heroWrapper__text p{
+            padding-bottom: 1.5rem;
+            color:hsl(236, 13%, 42%);
+        }
+    
+    
+    }
+    @media only screen and (min-width : 480px) {
+    
+    }
+    @media only screen and (min-width : 768px) {
+    
+    }
+    @media only screen and (min-width : 992px) {
+    
+        .heroWrapper{
+            display: grid;
+            grid-template-columns: 1fr;  
+            gap: 4rem;  
+            margin-bottom: 3rem;
+        }
+        
+        .heroWrapper__banner{
+            min-height: 400px;
+            height: 100%;
+            max-height: 450px;
+            width: 100%;
+            display: flex;
+        }
+        
+        .heroWrapper__text{
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            padding: 2rem 0;
+            gap: 2rem;
+        }
+        
+        
+        .heroWrapper__text h2{
+            font-size: 4rem;
+            margin:0;
+            padding-right: 3rem;
+        }
+        
+        .heroWrapper__text a{
+            border: 1px solid red;
+            padding: 10px 2rem;
+            background-color: hsl(5, 85%, 63%);
+            color: white;
+        }
+        
+        .heroWrapper__text p{
+            padding-bottom: 1.5rem;
+            color:hsl(236, 13%, 42%);
+        }
+    
+    
+    }
+    @media only screen and (min-width : 1200px) {
+    
+        .heroWrapper{
+            display: grid;
+            grid-template-columns: auto 1fr;  
+            gap: 4rem;  
+            margin-bottom: 3rem;
+        }
+        
+        .heroWrapper__banner{
+            min-height: 400px;
+            height: 100%;
+            max-height: 450px;
+            width: 100%;
+            display: flex;
+        }
+        
+        .heroWrapper__text{
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            padding: 2rem 0;
+            gap: 2rem;
+        }
+        
+        
+        .heroWrapper__text h2{
+            font-size: 4rem;
+            margin:0;
+            padding-right: 3rem;
+        }
+        
+        .heroWrapper__text a{
+            border: 1px solid red;
+            padding: 10px 2rem;
+            background-color: hsl(5, 85%, 63%);
+            color: white;
+        }
+        
+        .heroWrapper__text p{
+            padding-bottom: 1.5rem;
+            color:hsl(236, 13%, 42%);
+        }
+    
+    
+    }
